@@ -1,0 +1,24 @@
+@import url(./assets/css/font.css);
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto Mono", "Segoe UI", sans-serif;
+}
+
+#root {
+  height: 100%;
+}

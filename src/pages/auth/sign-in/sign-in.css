@@ -1,0 +1,54 @@
+.sign-heading {
+  margin-bottom: 56px;
+  text-align: center;
+  font-family: "Roboto Mono";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 53px;
+  color: #000000;
+}
+
+.sign-form {
+  display: flex;
+  flex-direction: column;
+  row-gap: 25px;
+}
+
+.form-inputs {
+  width: 100%;
+  padding-top: 12px !important;
+  padding-bottom: 12px !important;
+  background-color: #f4f4f4 !important;
+  border-radius: 3px !important;
+  border: none !important;
+  font-family: "Roboto Mono";
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+}
+
+.form-inputs::placeholder {
+  color: #474747 !important;
+}
+
+.sign-btn {
+  padding-top: 11px;
+  padding-bottom: 11px;
+  background-color: #000000;
+  border-radius: 3px;
+  font-family: "Roboto Mono";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 18px;
+  text-align: center;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+/*error*/
+.sign-error {
+  outline: red;
+  border: 1px solid red !important;
+}

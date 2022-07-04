@@ -1,0 +1,74 @@
+.single-left {
+  display: flex;
+  flex-direction: column;
+  margin-left: 125px;
+  row-gap: 50px;
+}
+
+.btn-hand,
+.btn-share {
+  display: flex;
+  flex-direction: column;
+  row-gap: 8px;
+  background-color: #ffffff;
+  padding: 0;
+  margin: 0;
+  border: none;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 18px;
+  text-align: center;
+  color: #000000;
+  cursor: pointer;
+}
+
+.btn-hand::before,
+.btn-share::before {
+  content: "";
+  display: block;
+  width: 18px;
+  height: 19px;
+  background-size: auto;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.btn-hand::before {
+  background-image: url("../../assets/img/applause.svg");
+}
+
+.btn-share::before {
+  background-image: url("../../assets/img/share.svg");
+}
+
+@media only screen and (max-width: 1024px) {
+  .single-left {
+    margin-left: 90px;
+  }
+}
+
+@media only screen and (max-width: 828px) {
+  .single-left {
+    margin-left: 50px;
+  }
+}
+
+@media only screen and (max-width: 757px) {
+  .single-left {
+    margin-left: 25px;
+  }
+}
+
+@media only screen and (max-width: 711px) {
+  .single-left {
+    flex-direction: row;
+    column-gap: 50px;
+    margin-bottom: 15px;
+  }
+}
+
+@media only screen and (max-width: 375px) {
+  .single-left {
+    display: none;
+  }
+}

@@ -1,0 +1,147 @@
+.item {
+  display: flex;
+  flex-direction: column;
+  max-width: 734px;
+}
+
+.item-top {
+  margin-bottom: 45px;
+}
+
+.item-interface {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+  color: #777777;
+}
+
+.item-heading {
+  margin-top: 24px;
+  margin-bottom: 25px;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 36px;
+  color: #474747;
+  text-transform: capitalize;
+}
+
+.item-wrapper {
+  display: flex;
+  align-items: center;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+  color: #777777;
+}
+
+.item-date {
+  display: flex;
+  align-items: center;
+}
+
+.item-date::after {
+  content: "";
+  display: block;
+  width: 14px;
+  height: 1px;
+  background-color: #d1d1d1;
+  transform: rotate(90deg);
+}
+
+.item-checked {
+  display: flex;
+  align-items: center;
+  column-gap: 10px;
+}
+
+.item-checked::before {
+  content: "";
+  display: block;
+  width: 16px;
+  height: 16px;
+  background-image: url("../../assets/img/time.svg");
+  background-size: auto;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.item-content {
+  margin-top: 50px;
+  margin-bottom: 80px;
+}
+
+.item-body {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 32px;
+  color: #474747;
+}
+
+.item-inner-heading {
+  margin-bottom: 13px;
+  font-weight: 500;
+  font-size: 19px;
+  line-height: 28px;
+  color: #474747;
+}
+
+.item-lorem {
+  margin-bottom: 32px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 32px;
+  color: #474747;
+}
+
+.item-quote {
+  padding-left: 22px;
+  margin-bottom: 48px;
+  border-left: 1px solid #dfdfdf;
+}
+
+.item-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 32px;
+  color: #474747;
+}
+
+.item-owner {
+  font-family: "Roboto Mono";
+  font-style: italic;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 32px;
+  color: #474747;
+}
+
+.item-bottom {
+  margin-bottom: 39px;
+  font-weight: 500;
+  font-size: 19px;
+  line-height: 28px;
+  color: #474747;
+}
+
+.item-list {
+  padding-left: 15px;
+}
+
+.item-info {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 32px;
+  color: #474747;
+}
+
+@media only screen and (max-width: 1050px) {
+  .item {
+    max-width: 700px;
+  }
+}
+
+@media only screen and (max-width: 928px) {
+  .item {
+    max-width: 600px;
+  }
+}
